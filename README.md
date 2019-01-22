@@ -21,5 +21,12 @@ API_URL='<url>'
 ```
 DEVICE_NAME='<id>'
 ```
+Update the device.rb script to reference your device names in the BULBS and PLUGS arrays.
 
-Visit https://cynicalengineering.com to learn how to interact with the API, generate a token and use this wrapper.
+Turn devices on or off by calling:
+```
+device.rb on
+device.rb off
+```
+
+Visit https://cynicalengineering.com to learn how to interact with the API further, generate a token and use this wrapper.
